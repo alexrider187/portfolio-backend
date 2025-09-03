@@ -40,7 +40,7 @@ app.use(
         defaultSrc: ["'self'"],
         scriptSrc: ["'self'"],
         styleSrc: ["'self'", "'unsafe-inline'"],
-        imgSrc: ["'self'", "data:", process.env.FRONTEND_URL, "http://localhost:5000"], // Only frontend + self
+        imgSrc: ["'self'", "data:", process.env.FRONTEND_URL, "https://portfolio-backend-nqlr.onrender.com"], // Only frontend + self
         connectSrc: ["'self'", process.env.FRONTEND_URL],
       },
     },
