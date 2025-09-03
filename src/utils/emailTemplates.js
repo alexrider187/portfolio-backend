@@ -23,8 +23,8 @@ export const contactConfirmationTemplate = ({ name }) => {
       <div class="content">
         <p>Hi ${name},</p>
         <p>Thank you for reaching out! I have received your message and will get back to you as soon as possible.</p>
-        <p>Meanwhile, feel free to check my <a href="https://portfolio-frontend-is8u-hpbqu2r84-alexrider187s-projects.vercel.app" style="color:#6D5BBA; font-weight:600;">portfolio</a> or connect with me on social media.</p>
-        <a href="https://portfolio-frontend-is8u-hpbqu2r84-alexrider187s-projects.vercel.app" class="button">Visit Portfolio</a>
+        <p>Meanwhile, feel free to check my <a href="portfolio-frontend-wh7s-krjz87mgo-alexrider187s-projects.vercel.app" style="color:#6D5BBA; font-weight:600;">portfolio</a> or connect with me on social media.</p>
+        <a href="portfolio-frontend-wh7s-krjz87mgo-alexrider187s-projects.vercel.app" class="button">Visit Portfolio</a>
       </div>
       <div class="footer">&copy; ${new Date().getFullYear()} Your Name. All rights reserved.</div>
     </div>
