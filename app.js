@@ -44,7 +44,7 @@ app.use(
         connectSrc: ["'self'", process.env.FRONTEND_URL],
       },
     },
-    crossOriginResourcePolicy: { policy: "same-site" }, // Prevent cross-origin resource blocks for your own site
+    crossOriginResourcePolicy: { policy: "cross-origin" }, // Prevent cross-origin resource blocks for your own site
   })
 );
 
@@ -60,7 +60,7 @@ app.use('/api/', limiter);
 app.use(
   '/uploads',
   (req, res, next) => {
-    res.setHeader('Cross-Origin-Resource-Policy', 'same-site'); // Only your site
+    res.setHeader('Cross-Origin-Resource-Policy', 'cross-origin'); // Only your site
     next();
   },
   express.static(path.join(__dirname, 'uploads'))
